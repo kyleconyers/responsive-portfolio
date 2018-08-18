@@ -1,0 +1,262 @@
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+* {
+    box-sizing: border-box;
+  }
+   
+
+    nav{  
+        height: 60px;
+        background-color: white;
+        
+    }
+   
+    .namebox {
+        background-color:#4aaaa5;
+        color: white;
+        text-align: left;
+        height: 75px;
+        margin-left: 75px;
+        font-size: 40px;
+        padding: 15px;
+        
+    }
+
+    .aboutbox {
+        margin-left: 75px;
+        font-size: 20px;
+        color: #777777;
+        float: right;
+        margin-top: 25px;
+        margin-right: 50px;
+     }
+     
+     .aboutbox a{
+         text-decoration: none;
+         color: #777777;
+         
+     }
+
+     .aboutbox a:hover{
+        color: #d8d8d8;
+
+     }
+    body {
+        background-image: url("../images/nice_snow.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        margin-top: 0;
+    }
+    div{
+        background-color: white;
+        padding-right: 10px;
+        margin-top: 50px;
+        
+          margin-left: 75px;
+          
+       
+          width: 750px;
+    }
+    hr{
+        margin: 0;
+    }
+    .hrbox {
+        margin-top: 10px;
+        margin-right: 15px;
+        margin-bottom: 5px;
+        margin-left: 15px;
+        color: #777777; 
+
+    }
+
+    
+    h2{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 40px;
+        color: #4aaaa5;
+        padding-left: 15px;
+        padding-right: 200px;
+    }
+    img {
+        float: left;
+       
+        height: 150px;
+        width: 175px;
+        display: block;
+        padding: 15px;
+
+      }
+
+    p {
+        margin-top: 15px;
+        margin-left: 15px;
+        text-align: left;
+        font-size: 20px;
+        color: #7777;
+      }
+   
+      
+    footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border: 20px;
+        padding: 10px;
+        width: 100%;
+        height: 20px;
+        background-color: #7777;
+        float: bottom;
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+  
+    .portfoliobox{
+        height: 470px;
+        margin-left: 0px;
+
+    }
+  
+
+    .container{
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .image {
+       display: block;
+       height: 150px; 
+       width: 175px;
+      }
+
+    
+    .overlay {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+        width: 175px;
+        color: white;
+        font-size: 20px;
+        height:30px;
+        text-align: center;
+        
+      } 
+
+
+      .smallbox{
+          margin-left: 15px;
+      }
+
+      
+      .messagebox{
+          margin-left: 15px;
+          height: 200px;
+          width: 400px;
+
+      }
+
+      
+
+      p .contactlabel{
+          margin-left: 15px;
+      }
+
+      .submit{
+          font-size: 15px;
+          color: white;
+          margin-left: 15px;
+          margin-bottom: 10px;
+          background-color: #4aaaa5;
+          height: 15px;
+          padding-top: 12px;
+          /* padding-right: 12px; */
+          padding-bottom: 30px;
+          padding-left: 12px;
+
+      }
+      .submit hover{
+        color: #d8d8d8;
+
+     }
+
+      @media  screen and (max-width: 768px) {
+           .namebox{
+              margin-left: 15px; }
+
+          .messagebox{
+              width: 200px;
+          }
+
+          div{
+              margin-left: 15px;
+              width: 400px;
+          }
+        }
+    }
+      @media  screen and (max-width: 640px) {
+
+        div{
+            width: 250px;
+        }
+        .aboutbox{
+            float: left;
+            background: white;
+
+        }
+        hr{
+            height: 0px;
+
+        }
+        .namebox{
+            padding-bottom: 70px;
+        }
+
+      }
